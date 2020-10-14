@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+color: black;
+margin: 0;
+}
+
+#nav-bar{
+    background-color: black;
+    
+}
+
+#nav-letters{
+    color: white;
+}
+/*
+#caption span#border{
+background-color: #111;
+color: #fff;
+padding: 18px;
+font-size: 25px;
+letter-spacing: 10px;
+
+}
+
+
+#myVideo {
+   
+    z-index: auto;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+   margin-bottom: -0.8rem;
+   margin-right: 1rem;
+  }
+*/
+
+.showcase {
+	height: 97vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+#border{
+    border: 5px white solid;
+    padding: 3rem;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
+		center/cover;
+}
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+.video-container:after {
+	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.content {
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bgimg-1
+{
+    background-image: url("https://images.pexels.com/photos/2465825/pexels-photo-2465825.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    min-height: 100%;
+    position: relative;
+    opacity: 1;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    padding: 28vw;
+}
+
+#description{
+    
+    background-color:#0e0e0e;
+    text-align:center;
+    padding:150px 80px;
+    text-align: justify;
+    color: white;
+}
+
+#our-story{
+    text-align:center; color:#C49C6B;
+}
+#bgimg-2{
+    background-image: url("https://images.pexels.com/photos/3073970/pexels-photo-3073970.jpeg?cs=srgb&dl=pexels-sabel-blanco-3073970.jpg&fm=jpg");
+    min-height: 400px;
+    position: relative;
+opacity: 1;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#bgimg-3{
+    background-image: url("https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?cs=srgb&dl=pexels-elle-hughes-2696064.jpg&fm=jpg");
+    min-height: 400px;
+    position: relative;
+opacity: 1;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#border{
+
+}
+
+#last-segment{
+    position:relative;
+    padding: 5rem;
+    background-color: #0e0e0e;
+    color: white;
+}
+
+
+
+/*
+#caption{
+    position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+color: #000;
+}*/
